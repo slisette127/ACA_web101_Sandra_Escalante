@@ -15,6 +15,7 @@ section.history {
     grid-column: 2/3;
     grid-row: 2/3;
     background-color: yellowgreen;
+    display: flex;
     }
 section.academic {
     grid-column: 2;
@@ -39,7 +40,7 @@ section.contact {
     grid-row: 3/5;
     background-color: peru;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     }
     
  img {
