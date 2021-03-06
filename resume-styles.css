@@ -1,17 +1,9 @@
-.main-container {
+.grid-container {
     height: 100%;
     display: grid;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 5;
+    grid-template-columns: 30% auto;
+    grid-template-rows: auto auto auto auto;
     }
-header {
-    grid-column: 1/-1;
-    grid-row: 1/2;
-    background-color: aqua;
-    }
-
 
 section.profile {
     grid-column: 2;
@@ -24,12 +16,12 @@ section.history {
     grid-row: 2/3;
     background-color: yellowgreen;
     }
-section.reachme {
+section.academic {
     grid-column: 2;
     grid-row: 4;
     background-color: blue;
     }
-section.experience {
+section.work {
     grid-column: 2/2;
     grid-row: 3/4;
     background-color: red;
@@ -49,3 +41,9 @@ section.contact {
     display: flex;
     justify-content: space-between;
     }
+    
+ img {
+    max-width: 500px;
+    height: auto;
+    }
+    
