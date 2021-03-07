@@ -4,6 +4,8 @@
     display: grid;
     grid-template-columns: 30% auto;
     grid-template-rows: 250px 250px 250px 250px;
+    font-family: 'Bigelow Rules', cursive;
+    font-family: 'Cormorant Unicase', serif;
     }
 
 section.profile {
@@ -28,7 +30,8 @@ h1 {
 h3 {
     color: red;
     height: 200px;
-    margin-left: 50px;
+    margin: 0 0 0 50;
+    font-size: 25px;
 }
 
 section.photo {
@@ -54,8 +57,6 @@ section.summary {
     color: red;
     display: flex;
     text-align: center;
-    font-family: 'Bigelow Rules', cursive;
-    font-family: 'Cormorant Unicase', serif;
 }
 
 .personal {
@@ -68,8 +69,8 @@ section.summary {
 }    
 
 h2 {
-  font-size: 30px; 
-  margin: 20 0 0 0;
+    font-size: 30px; 
+    margin: 20 0 0 0; 
 }
 
 p {
@@ -86,16 +87,33 @@ p {
 }
 
 
-section.band {
+section.work {
     grid-column: 2/2;
     grid-row: 3/4;
     background-color: black;
     color: red;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
     }    
-    
+
+ h4 {
+    font-size: 30px; 
+    margin: 20 0 0 0;   
+ }   
+  
+.workhistory {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 0 0 50;
+}   
+.whpoints {
+    display: flex;
+    flex-direction: column;
+    margin: 25 0 0 100;
+}
+
+
 section.academic {
     grid-column: 2;
     grid-row: 4;
