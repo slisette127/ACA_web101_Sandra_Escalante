@@ -113,20 +113,58 @@ section.work {
     margin: 25 0 0 100;
 }
 
+.bhpoints {
+    display: flex;
+    flex-direction: column;
+    margin: 25 0 0 0;
+}   
 
 section.academic {
     grid-column: 2;
     grid-row: 4;
-    background-color: blue;
+    background-color: black;
+    color: red;
+    display: flex;
+    flex-direction: row;
     }
+
+.academichistory {
+    display: flex;
+    flex: center;
+    margin: 40 0 0 50;
+}    
+
+.ahpoints {
+    margin: 40 0 0 50;
+}
 
 section.contact {
     grid-column: 1;
     grid-row: 3/5;
-    background-color: peru;
+    background-color: rgb(212,0,0);
+    color: black;
     display: flex;
     flex-direction: column;
     }
     
+.contactdets{
+    display: flex;
+    flex: center;
+    flex-direction: column;
+    margin: 20 0 0 20;
+}
+
+.workref{
+    display: flex;
+    flex: center;
+    flex-direction: column;
+    margin: 20 0 0 20;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
 
     
