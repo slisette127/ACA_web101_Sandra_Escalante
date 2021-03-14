@@ -12,7 +12,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 350px 300px 50px 300px;
+    grid-template-rows: 350px 300px;
     margin: auto;
     
     }
@@ -40,10 +40,38 @@ body {
 
 .photo1 {                        
     grid-area: 1 / 2 / span 2 / span 1;
-    background-image: url(RandoWoman.jpg);
-    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     width: 100%;
-    border-radius: 800px;
 }
- 
+
+@media only screen and (max-width:600px) {
+    body{
+        background: black;
+    }
+    
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        margin: auto;
+        color: white;
+        background: black;}
+    } 
+
+@media only screen and (min-width:768) {
+    body{
+        background: darkorchid;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+        width:100%;
+        margin: auto;
+        color: red;}
+
+}
