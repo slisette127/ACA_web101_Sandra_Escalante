@@ -6,7 +6,7 @@ body {
 .parent {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         }
@@ -33,16 +33,7 @@ img {
 .email {
     text-align: center;
     margin: 50px 50px 50px 50px;
-    font-family: 'Baloo Chettan 2', cursive;    
-    font-size: 25px;
-    color: rgb(129,173,178);
-}
-
-.comments {
-    grid-column: 1;
-    grid-row: 4;
-    text-align: center;
-    font-family: 'Baloo Chettan 2', cursive;    
+    font-family: 'Baloo Chettan 2', cursive;       
     font-size: 25px;
     color: rgb(129,173,178);
     
