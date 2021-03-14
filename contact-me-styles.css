@@ -6,7 +6,7 @@ body {
 .parent {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat(6, auto);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         }
@@ -54,10 +54,10 @@ img {
 }
 
 
-
 .birthday {
     background: lightblue;
     grid-column: 1 / span 2;
     grid-row: 6;
     text-align: center;
 }
+

@@ -61,7 +61,7 @@ body {
         background: black;}
     } 
 
-@media only screen and (min-width:768) {
+@media only screen and (max-width:1000px) {
     body{
         background: darkorchid;
     }
