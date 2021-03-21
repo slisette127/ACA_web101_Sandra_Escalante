@@ -60,13 +60,13 @@ body {
   background: rgba(0, 0, 0, 0.5);
 }  
 
-.column:hover .overlay {
+.img1-wrap:hover .overlay {
   opacity: 1;
 }
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   position: absolute;
   top: 50%;
   left: 50%;
