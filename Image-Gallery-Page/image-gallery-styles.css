@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 
-.row {
+.flex-container {
   display: -ms-flexbox; 
   display: flex;
   -ms-flex-wrap: wrap; 
@@ -19,23 +19,35 @@ body {
 
 .column {
   -ms-flex: 25%; 
-  flex: 25%;
+  flex: 100%;
   max-width: 25%;
   padding: 10px 5px 10px 5px;
+  position: relative;
+  display: block;
 }
 
 .column img {
+  display: block;
+  position: relative;
   margin-top: 10px;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   width: 100%;
   height: auto;
 }
-
-.img-lady {
-  width: 300px;
+ 
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
-/* .overlay { 
+.img1-wrap {
+  position: relative;
+  width: 100%;
+}
+
+
+.overlay { 
   position: absolute;
   top: 0;
   bottom: 0;
@@ -45,7 +57,7 @@ body {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background: rgba(0, 0, 0, 0.5);
 }  
 
 .column:hover .overlay {
@@ -63,7 +75,7 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-*/
+
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
