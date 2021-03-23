@@ -7,6 +7,10 @@
 body {
   margin: 0;
 }
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 80px;
+}
 
 .flex-container {
   display: -ms-flexbox; 
