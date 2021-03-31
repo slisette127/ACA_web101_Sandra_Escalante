@@ -1,9 +1,9 @@
 .grid-container {
     height: 100%;
-    width: 900px;
+    width: 1200px;
     display: grid;
     grid-template-columns: 30% auto;
-    grid-template-rows: 250px 250px 250px 250px;
+    grid-template-rows: 420px 300px 150px 300px;
     font-family: 'Bigelow Rules', cursive;
     font-family: 'Cormorant Unicase', serif;
     margin: auto;
@@ -48,7 +48,7 @@ h1 {
 } */
   canvas{
     background: black;
-    width: 45vw;
+    width: 50vw;
     height: 40vh;
 }
 
